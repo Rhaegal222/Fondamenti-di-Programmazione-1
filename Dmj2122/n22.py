@@ -6,5 +6,5 @@ def scan(cond):
     if x != '.':
         return(scan(True) if x.isalpha() else scan(cond))
     else:
-        return(False if )
+        return(False)
 main()
